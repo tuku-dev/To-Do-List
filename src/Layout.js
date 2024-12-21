@@ -5,12 +5,9 @@ function Layout() {
     <>
       <nav>
         <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/to-do-list">To Do List</Link>
-          </li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/to-do-list">To Do List</Link></li>
+          <li><Link to="/dictionary">Dictionary</Link></li>
         </ul>
       </nav>
       <hr />
