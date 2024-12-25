@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import ToDoApp from './projects/ToDoList/ToDoApp';
 import DictionaryApp from './projects/DictionaryApp/DictionaryApp';
 import TextManipulate from './projects/TextManipulate/TextManipulate';
+import NewsApp from './projects/NewsApp/NewsApp';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Route path='to-do-list' element={<ToDoApp />} />
             <Route path='dictionary' element={<DictionaryApp />} />
             <Route path='text-manipulate' element={<TextManipulate />} />
+            <Route path='news' element={<NewsApp />} />
           </Route>
         </Routes>
       </BrowserRouter>
